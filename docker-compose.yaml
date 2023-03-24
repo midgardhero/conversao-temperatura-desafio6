@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  conversao-temperatura:
+    image: midgardhero/conversao-temperatura-desafio6
+    ports:
+      - 8080:8080
